@@ -1,0 +1,13 @@
+Instructions:
+
+1. The environment should have all the dependencies installed for running a python code with import libraries of timeit, numpy, random, operator, itertools, etc.
+
+2. Install DEAP and PySwarm using:
+	- pip install deap
+	- pip install pyswarm
+
+3. The command for running the modified_QPSO.py is: "python modified_QPSO.py". The results are shown as a record of "Gen, NSwarms, Evals, Error, Offline Error, Avg., Max." for each generation and the total time required for executing the optimization. "Avg." and "Max." show the average and maximum fitness of the particles of the swarms.
+
+4. "python plot_MPB.py" produces a 3D visualization graph for visualizing the Moving Peak Benchmark environment on where we are evaluating our framework.
+
+5. plot_results.py file contains the relative error and offline error results for 10 times runs for each scenario. "python plot_results.py" returns the boxplot of relative error against three different distribution methods (Gaussian, UVD, NUVD).
